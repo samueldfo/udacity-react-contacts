@@ -11,7 +11,8 @@ import registerServiceWorker from './registerServiceWorker';
 // Dom -> Document Object Model, is the tree of html elements
 // the second argument document.getElementById('root')) is where it will render
 // JSX allows us to use html similar syntax to make simple to join html and javascript, so we can get rid of get createElement functions
-// BrowserRouter allows us to create a navigation history and use it on our route render, see A pp.js
+// BrowserRouter allows us to create a navigation history and use it on our route render, see App.js
+// registerServiceWorker() is not been used in this project and could be removed
 
 ReactDOM.render(
 <BrowserRouter><App /></BrowserRouter>, 
