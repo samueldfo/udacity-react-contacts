@@ -59,12 +59,7 @@ class ListContacts extends Component {
 						// event.target.value gives the specif value of the input field
 						onChange={(event) => this.updateQuery(event.target.value)}
 					/>
-					<Link
-						to='/create'
-						className='add-contact'
-					>
-						Add Contact
-					</Link>
+					<Link to='/create' className='add-contact'> Add Contact </Link>
 				</div>
 
 				{showingContacts.length !== contacts.length && ( // Short-Circuit -> this is the same as if (showingContacts.length !== contacts.length) {
