@@ -6,7 +6,9 @@ import serializeForm from 'form-serialize'
 class CreateContact extends Component {
 
   handleSubmit = (e) => {
+    // prevent browser to natively serialize and submit form data as a query param
     e.preventDefault()
+    // here we serialize form as a object by ourself
     const values = serializeForm(e.target, { hash: true })
     if (this.props.onCreateContact) {
       this.props.onCreateContact(values)
