@@ -1,4 +1,4 @@
 
-Udacity - React Course
+Udacity - Nanodegree React Course
 
-Introdução - Contacts
+Fundamentos de React - Contacts
