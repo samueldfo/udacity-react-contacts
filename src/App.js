@@ -33,7 +33,7 @@ class App extends Component {
   }
 
   render() {
-    // history is from BrowserRouter that permits us to keep a navigation history in browser
+    // history is from BrowserRouter that permits us a navigation throw browser history https://github.com/reacttraining/history
     // Router permits us to pass props to render
     return (
       <div>
